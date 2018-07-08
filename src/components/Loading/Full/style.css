@@ -1,0 +1,28 @@
+.LoadingFullScreen {
+  width: 100vw;
+  height: 100vh;
+}
+
+.LoadingIcon {
+  font-size: 64px;
+  margin: 20px auto;
+  width: 66%;
+  animation-name: drive;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes drive {
+  0% {
+    text-align: right;
+  }
+
+  50% {
+    text-align: center;
+  }
+
+  100% {
+    text-align: left;
+  }
+}
+

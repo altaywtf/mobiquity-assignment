@@ -1,0 +1,22 @@
+.RaceListItem {
+  padding: 16px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.RaceListItem:last-child {
+  border-bottom: none;
+}
+
+.RaceListItem > h3 {
+  margin-bottom: 2px;
+}
+
+.RaceListItem > h3 > small {
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.RaceListItem span {
+  padding: 2px 4px;
+}
+
