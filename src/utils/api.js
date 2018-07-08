@@ -36,7 +36,7 @@ class Api {
 }
 
 Api.DEFAULT_OPTIONS = {
-  baseURL: 'http://ergast.com/api/f1',
+  baseURL: 'https://ergast.com/api/f1',
 }
 
 export default Api
