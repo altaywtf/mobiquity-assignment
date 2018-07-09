@@ -40,6 +40,10 @@ class RaceList extends React.PureComponent {
     if (!resolved) {
       return <Loading />
     }
+      
+    if (error) {
+      return 'Error'
+    }
 
     return (
       <div className="RaceList">
